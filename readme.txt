@@ -1,0 +1,1 @@
+A simple crosshair overlay that affixes to the middle of the screenm, I made it for myself to play a game withou the reticle on the screen and it bothered me.
