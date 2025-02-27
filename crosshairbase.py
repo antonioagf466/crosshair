@@ -22,8 +22,8 @@ class MainWindow(QMainWindow):
         QtCore.QSize(20, 20)
          # Calculate screen geometry to center the window
         screen_geometry = QtWidgets.QApplication.primaryScreen().availableGeometry()
-        x = (screen_geometry.width() - 20) // 2 
-        y = (screen_geometry.height() - 20) // 2         
+        x = (screen_geometry.width()) // 2  + 23
+        y = (screen_geometry.height()) // 2  - 20        
         # Set geometry to center the window
         self.setGeometry(x, y, 20, 20)
 
