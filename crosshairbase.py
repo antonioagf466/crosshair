@@ -38,7 +38,7 @@ class MainWindow(QMainWindow):
 
     def keyPressEvent(self, event):
         print(event.key())
-        if event.key() == 80:
+        if event.key() == 80: #this is the key "p"
             self.close()
 
 
